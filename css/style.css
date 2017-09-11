@@ -42,11 +42,11 @@ a#logo {
 	float: left;
 	overflow: hidden;
 	height: 40px;
-	border: 1px solid #dcdcdc;
+	border: .5px solid #fff;
 	width: 630px;
 	margin: 15px auto 0 auto;
 	border-radius: 2px;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     background: #fff;
 }
@@ -161,6 +161,7 @@ nav {
 	background: #fafafa;
 	overflow: hidden;
 	margin-bottom: 3px;
+	border-bottom: 1px solid #ebebeb;
 }
 
 .menu {
@@ -229,6 +230,97 @@ nav {
 	font: 13px arial, sans-serif;
 	color: #777;
 }
+
+/* Search Results */
+.mainContent {
+	width: 100%;
+}
+
+.result {
+	line-height: 43px;
+	color: #808080;
+	padding-left: 165px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 8px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+.searchResult {
+	width: 600px;
+	padding: 10px 0 10px 165px;
+}
+
+.searchResult h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.searchResult h3 a {
+	text-decoration: none;
+	color: #1a0dab;
+}
+
+.searchResult h3 a:hover {
+	text-decoration: underline;
+}
+
+.searchResult p {
+	color: #006621;
+	font-size: 14px;
+}
+
+.date {
+	color: #808080;
+	font-size: 13px;
+}
+
+p.descr {
+	font-size: 13px;
+	color: #545454;
+}
+
+.searchResult ul {
+	display: inline-block;
+}
+
+.searchResult li {
+	float: left;
+	list-style: none;
+	padding: 0 12px 0 0;
+	font-size: 13px;
+}
+
+.searchResult li a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+.searchResult li a:hover {
+	text-decoration: underline;
+}
+
+.space {
+	margin-bottom: 8px;
+}
+
+.clicked {
+	color: #609 !important;
+}
+
+p.visited {
+	font-size: 13px;
+	color: #808080 !important;
+}
+
+.reddit {
+	font-size: 13px !important;
+	color: #808080 !important;
+}
+
+
+
 
 
 
